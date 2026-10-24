@@ -1,0 +1,35 @@
+# XcodeGen spec. Regenerate the Xcode project with:  xcodegen generate
+name: Waybill
+options:
+  bundleIdPrefix: com.yorben
+  deploymentTarget:
+    iOS: "27.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+    DEVELOPMENT_TEAM: 34LM5DW4G4
+    CODE_SIGN_STYLE: Automatic
+targets:
+  Waybill:
+    type: application
+    platform: iOS
+    sources:
+      - path: Waybill
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yorben.waybill
+        TARGETED_DEVICE_FAMILY: "2"
+        MARKETING_VERSION: "0.1"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Waybill
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_FILE: Waybill/Info.plist  # only the launch screen; the rest is generated
+        INFOPLIST_KEY_UIStatusBarHidden: YES
+        INFOPLIST_KEY_UIRequiresFullScreen: YES  # keeps the game landscape-only (deprecated in iPadOS 26, still honoured)
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_PREVIEWS: YES

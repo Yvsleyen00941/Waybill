@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E04A1C850AC969228C06F1 /* SoundEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0591F47120BA48FE99CF685 /* SoundEngine.swift */; };
+		013FF87461EAC3389AE0CDC1 /* Trains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A61B98F40775BAF05A23051 /* Trains.swift */; };
+		135719E40CFE3AD0F2D724A5 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C169A5FD9884DAE27121BE /* HUD.swift */; };
+		168B65441AB73865076BD7F5 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A1515A93B4DF8945CCE5A3 /* Math.swift */; };
+		1CDA4FCF551B9FF4E6257318 /* WorldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D86C4DCC2F6D22D5BC59135 /* WorldController.swift */; };
+		1FB8BC8DBF6A7F6AEA0CD8BB /* PostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D62934CC1C3F633934EE00 /* PostProcessor.swift */; };
+		22BE679455C40690ADF82A70 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890CFF28E41EC550DAB96258 /* Region.swift */; };
+		2611558C87D9426E68029179 /* GraniteResearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1D919A599A45B7481FE8A6 /* GraniteResearch.swift */; };
+		34B4BC377157F6B540F607C1 /* GameVisuals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ED2C3F76A7805F81445533 /* GameVisuals.swift */; };
+		3AA1E7040D6C7896150EE4FF /* ExpansionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D9D4FF13051710BEA5F9CC /* ExpansionCard.swift */; };
+		41A01893924F60D429923585 /* MetroVehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2093DC2A6B76FD3606C7922B /* MetroVehicles.swift */; };
+		43B9CB0C966855EBB6BE2B56 /* RiversideRoutines.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FA1B5419C7CBC7E9373EB3 /* RiversideRoutines.swift */; };
+		4592863581CE28F311ED388B /* RiversideResearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1DE7E8F38D9E6C1A562FB6 /* RiversideResearch.swift */; };
+		4753259A1F8201FE741BCC15 /* Textures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E97972561512D1006562E7F /* Textures.swift */; };
+		4CBA8FE684B989B7480F451E /* DockWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60352153738732CEC3B3F3 /* DockWork.swift */; };
+		56D06605E10108176AFABC64 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB86953716194B4CC1E3D3E /* Palette.swift */; };
+		585F8855215888D152A7373D /* Contracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21115DC25FE08812748D5F /* Contracts.swift */; };
+		612CF1AF225357ED6DEC2991 /* OpsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF10E212C88964130CAE2B /* OpsPanel.swift */; };
+		637911D82A87182088A81542 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295EEB5BB9EA517EF7319AF2 /* LoadingScreen.swift */; };
+		6652CB02BAB8D288B80469AD /* RiversideExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F30CFF9965540EC5102230 /* RiversideExtras.swift */; };
+		67167B1A5E80ECBBDD40EB32 /* Research.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71802C8DC0F5FEAA65975993 /* Research.swift */; };
+		698A5035EAC05FD5F5DB5D1C /* FleetVisual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B4BF6CED0F07623C08D3B5 /* FleetVisual.swift */; };
+		6B94DABA578097C6335C215A /* StatusChips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2683D6DC32328A7AE37514B0 /* StatusChips.swift */; };
+		74C79B7C943749008C35C770 /* HarbourVehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF83F437E2C1612DACE8646 /* HarbourVehicles.swift */; };
+		75C476647D9D4F8D5BD3C73E /* Fleet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A4F5F3BB668DF1E6FE3DE /* Fleet.swift */; };
+		7A0338031EF3851D80C014B8 /* Economy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89757B6255D437BFE1A766EB /* Economy.swift */; };
+		7B102AD231D546428DC7B16F /* DayCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94779B5767E54BCD84FB3598 /* DayCycle.swift */; };
+		7C2E0F5823F05E607E89F188 /* MetroWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5C5E26B4D4EC696E98FC3 /* MetroWork.swift */; };
+		80EBFDFAC61347CF97794DD5 /* Studio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE9FB3A719FEDE6EDF2862 /* Studio.swift */; };
+		852484809EF79FA07C57FBD0 /* Synth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35210C631B1EDC399281AA6B /* Synth.swift */; };
+		852CA8690B1013E87FDCE116 /* CameraRig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263DD9231EDAA12C6952AC9 /* CameraRig.swift */; };
+		87097A9E22CF1339E69DBBDC /* YardTraffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAF3CE5FC84B95766575A8 /* YardTraffic.swift */; };
+		88198763A2CE5AAEED1C82E1 /* HarbourResearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4654C9ACA2851207FEF91C /* HarbourResearch.swift */; };
+		8903E25A3A9014D0BA7655A2 /* Rockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE636CB09137252EEB3590C /* Rockets.swift */; };
+		8CCAE1BF6DF237A242F44D4D /* MetroResearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC4E28E309E3123E5A9D18 /* MetroResearch.swift */; };
+		8E398397A35BE9580F5843A9 /* GraniteWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E8E788CE92DEEA6FBCDFD4 /* GraniteWorld.swift */; };
+		8EE1A640109EFC29D64E5F46 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5FF228A03F003457CA5355 /* GameModel.swift */; };
+		911C4075DC71041E0400E0CE /* OrbitWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AEB441B13173D59C7FE865 /* OrbitWorld.swift */; };
+		924F469FF3AC439084D5F23F /* RiversideWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378AAADB2E5C09E73E11FF8 /* RiversideWorld.swift */; };
+		92D49A981C669FACB2AD13C7 /* Kit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F77DC7E7595A9247BA2A5 /* Kit.swift */; };
+		93BCA6BA87D085F447E72461 /* GameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1DDB6FCB431E4A07C07EA2 /* GameScreen.swift */; };
+		95002903C2C3482A17186617 /* MotionPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15E4841B37D6DC434CB7F42 /* MotionPlan.swift */; };
+		9BFC0D8F0FFD1E5E1D5B94BE /* Materials.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB67F5BF1DE41145338241D1 /* Materials.swift */; };
+		A1774BE96FE9484DB699FF18 /* AwayReportCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DEC6B5B5FE7E5DEE26BBC5 /* AwayReportCard.swift */; };
+		A1A5DF8E71995216F5947E50 /* OrbitResearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D223480E14DE9F73B661E5E /* OrbitResearch.swift */; };
+		A52B8DDDDBE7E54585C038F7 /* WaybillApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FB02E421A316081C1751E9 /* WaybillApp.swift */; };
+		A68078EB52158576E69F38B8 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457DC8F0BA667F8CE5237C0D /* Routes.swift */; };
+		A9053371E0411398137263C9 /* RiversideDepot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B170C4D713E35EE116CFD52A /* RiversideDepot.swift */; };
+		AA63D1D3741BECFE082887E5 /* HarbourWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8C04EAD0558784BC085FD /* HarbourWorld.swift */; };
+		AB534B22829C1375C7481196 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C00F97DD856A12A6D1A243F /* Brand.swift */; };
+		AC3C829792E323604F892ABF /* Warehouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01609379901698C88CC768A /* Warehouse.swift */; };
+		AF4CCAC52947E95A758A5638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E9DF16DEFD86D413812CDE3 /* Assets.xcassets */; };
+		B9F03EABFF87C6813981C486 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021D867462D756EB0DB12F0C /* Common.swift */; };
+		BC59FDD8D8A378DC98D3687C /* Vehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31603DE89BA59407C6138D5E /* Vehicles.swift */; };
+		C3877560A144C8A5EEC3BB38 /* PostFXShaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C299428E6E2C88DA0CDDE /* PostFXShaders.swift */; };
+		C4B5250D5A9600B4A8399C9D /* LoopingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F597101D9B5A11A9EF02E /* LoopingShape.swift */; };
+		C51F18B7BADF3F428E62E046 /* ResearchVisuals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468FAE715A20EA68F0956C5 /* ResearchVisuals.swift */; };
+		CA29E54543BB347BD18B47E8 /* ResearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9F412C85FE25495DC66501 /* ResearchView.swift */; };
+		CD23B6D5B747E802499B3BB7 /* Scenery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA4C8BCBF1822A6C9235DE /* Scenery.swift */; };
+		E2AB0B18662BEA9813E15201 /* RushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CD081B01D76BACE786739C /* RushButton.swift */; };
+		E2FCB7D4DC39B714CBF84583 /* MeshBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E8A913775EAA8AAD0B8EFA /* MeshBuilder.swift */; };
+		E44B50A89717D51F26D00E1A /* HUDGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05176851D3A179F7D12DB02B /* HUDGlass.swift */; };
+		E65EED86A1FD4BBF6ACC7C88 /* ContractsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A083D7C9D8DC81D7963EF5D /* ContractsView.swift */; };
+		EB49190C677572DB1DD69894 /* ShipmentTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92005289F40315456AB6708 /* ShipmentTracker.swift */; };
+		EE5DADD145414941C894ABF7 /* FinaleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5585FC909E9F4115CE86723E /* FinaleCard.swift */; };
+		F100C198AE9FC205DBE3E335 /* Animators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5181D57B4382970510D0AB /* Animators.swift */; };
+		F3AA11FBE9DD73EB3B5BA92F /* MetroWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915384EDE819BDB9C8C499A3 /* MetroWorld.swift */; };
+		FBCC38290832BF1317E41F8C /* Props.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605185822A30954B4E45E4C6 /* Props.swift */; };
+		FF5C0E5A2EF95B80E76D2E7F /* DrivePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6147327EFC86EF77CFC6E1 /* DrivePath.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021D867462D756EB0DB12F0C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		05176851D3A179F7D12DB02B /* HUDGlass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDGlass.swift; sourceTree = "<group>"; };
+		06AF10E212C88964130CAE2B /* OpsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpsPanel.swift; sourceTree = "<group>"; };
+		0A8A4F5F3BB668DF1E6FE3DE /* Fleet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fleet.swift; sourceTree = "<group>"; };
+		146F597101D9B5A11A9EF02E /* LoopingShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingShape.swift; sourceTree = "<group>"; };
+		17F757AF2E725F6727931ECB /* Waybill.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Waybill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F30CFF9965540EC5102230 /* RiversideExtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiversideExtras.swift; sourceTree = "<group>"; };
+		1C1DDB6FCB431E4A07C07EA2 /* GameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreen.swift; sourceTree = "<group>"; };
+		1D86C4DCC2F6D22D5BC59135 /* WorldController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldController.swift; sourceTree = "<group>"; };
+		2093DC2A6B76FD3606C7922B /* MetroVehicles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroVehicles.swift; sourceTree = "<group>"; };
+		25D9D4FF13051710BEA5F9CC /* ExpansionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionCard.swift; sourceTree = "<group>"; };
+		2683D6DC32328A7AE37514B0 /* StatusChips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusChips.swift; sourceTree = "<group>"; };
+		295EEB5BB9EA517EF7319AF2 /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		29E8E788CE92DEEA6FBCDFD4 /* GraniteWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraniteWorld.swift; sourceTree = "<group>"; };
+		2A083D7C9D8DC81D7963EF5D /* ContractsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractsView.swift; sourceTree = "<group>"; };
+		2C9F412C85FE25495DC66501 /* ResearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchView.swift; sourceTree = "<group>"; };
+		2F6147327EFC86EF77CFC6E1 /* DrivePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivePath.swift; sourceTree = "<group>"; };
+		31603DE89BA59407C6138D5E /* Vehicles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicles.swift; sourceTree = "<group>"; };
+		35210C631B1EDC399281AA6B /* Synth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synth.swift; sourceTree = "<group>"; };
+		39A1515A93B4DF8945CCE5A3 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		3DE636CB09137252EEB3590C /* Rockets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rockets.swift; sourceTree = "<group>"; };
+		3E97972561512D1006562E7F /* Textures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textures.swift; sourceTree = "<group>"; };
+		3ECA4C8BCBF1822A6C9235DE /* Scenery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenery.swift; sourceTree = "<group>"; };
+		457DC8F0BA667F8CE5237C0D /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		47CD081B01D76BACE786739C /* RushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RushButton.swift; sourceTree = "<group>"; };
+		5585FC909E9F4115CE86723E /* FinaleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinaleCard.swift; sourceTree = "<group>"; };
+		56EAF3CE5FC84B95766575A8 /* YardTraffic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardTraffic.swift; sourceTree = "<group>"; };
+		5A1D919A599A45B7481FE8A6 /* GraniteResearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraniteResearch.swift; sourceTree = "<group>"; };
+		5C4654C9ACA2851207FEF91C /* HarbourResearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarbourResearch.swift; sourceTree = "<group>"; };
+		5D223480E14DE9F73B661E5E /* OrbitResearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitResearch.swift; sourceTree = "<group>"; };
+		5EFE9FB3A719FEDE6EDF2862 /* Studio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Studio.swift; sourceTree = "<group>"; };
+		605185822A30954B4E45E4C6 /* Props.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Props.swift; sourceTree = "<group>"; };
+		71802C8DC0F5FEAA65975993 /* Research.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Research.swift; sourceTree = "<group>"; };
+		7C00F97DD856A12A6D1A243F /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		7C340CC8CD3C6734C5751B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7E5FF228A03F003457CA5355 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		7E9DF16DEFD86D413812CDE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EC8C04EAD0558784BC085FD /* HarbourWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarbourWorld.swift; sourceTree = "<group>"; };
+		80DEC6B5B5FE7E5DEE26BBC5 /* AwayReportCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwayReportCard.swift; sourceTree = "<group>"; };
+		8378AAADB2E5C09E73E11FF8 /* RiversideWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiversideWorld.swift; sourceTree = "<group>"; };
+		86E8A913775EAA8AAD0B8EFA /* MeshBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshBuilder.swift; sourceTree = "<group>"; };
+		890CFF28E41EC550DAB96258 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		89757B6255D437BFE1A766EB /* Economy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Economy.swift; sourceTree = "<group>"; };
+		915384EDE819BDB9C8C499A3 /* MetroWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroWorld.swift; sourceTree = "<group>"; };
+		94779B5767E54BCD84FB3598 /* DayCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCycle.swift; sourceTree = "<group>"; };
+		97B4BF6CED0F07623C08D3B5 /* FleetVisual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetVisual.swift; sourceTree = "<group>"; };
+		9A61B98F40775BAF05A23051 /* Trains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trains.swift; sourceTree = "<group>"; };
+		9B5181D57B4382970510D0AB /* Animators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animators.swift; sourceTree = "<group>"; };
+		9F60352153738732CEC3B3F3 /* DockWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockWork.swift; sourceTree = "<group>"; };
+		A0591F47120BA48FE99CF685 /* SoundEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEngine.swift; sourceTree = "<group>"; };
+		A0D62934CC1C3F633934EE00 /* PostProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProcessor.swift; sourceTree = "<group>"; };
+		AB67F5BF1DE41145338241D1 /* Materials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materials.swift; sourceTree = "<group>"; };
+		ABF83F437E2C1612DACE8646 /* HarbourVehicles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarbourVehicles.swift; sourceTree = "<group>"; };
+		AC0C299428E6E2C88DA0CDDE /* PostFXShaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFXShaders.swift; sourceTree = "<group>"; };
+		B170C4D713E35EE116CFD52A /* RiversideDepot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiversideDepot.swift; sourceTree = "<group>"; };
+		B37F77DC7E7595A9247BA2A5 /* Kit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kit.swift; sourceTree = "<group>"; };
+		B4ED2C3F76A7805F81445533 /* GameVisuals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVisuals.swift; sourceTree = "<group>"; };
+		B8AEB441B13173D59C7FE865 /* OrbitWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitWorld.swift; sourceTree = "<group>"; };
+		B92005289F40315456AB6708 /* ShipmentTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentTracker.swift; sourceTree = "<group>"; };
+		BAEC4E28E309E3123E5A9D18 /* MetroResearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroResearch.swift; sourceTree = "<group>"; };
+		BF21115DC25FE08812748D5F /* Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contracts.swift; sourceTree = "<group>"; };
+		D15E4841B37D6DC434CB7F42 /* MotionPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionPlan.swift; sourceTree = "<group>"; };
+		D468FAE715A20EA68F0956C5 /* ResearchVisuals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchVisuals.swift; sourceTree = "<group>"; };
+		D9FB02E421A316081C1751E9 /* WaybillApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaybillApp.swift; sourceTree = "<group>"; };
+		EBB86953716194B4CC1E3D3E /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		EC1DE7E8F38D9E6C1A562FB6 /* RiversideResearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiversideResearch.swift; sourceTree = "<group>"; };
+		F01609379901698C88CC768A /* Warehouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warehouse.swift; sourceTree = "<group>"; };
+		F263DD9231EDAA12C6952AC9 /* CameraRig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRig.swift; sourceTree = "<group>"; };
+		F2C169A5FD9884DAE27121BE /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		F7D5C5E26B4D4EC696E98FC3 /* MetroWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroWork.swift; sourceTree = "<group>"; };
+		F9FA1B5419C7CBC7E9373EB3 /* RiversideRoutines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiversideRoutines.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A4F7077C738632CBA175834 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B37F77DC7E7595A9247BA2A5 /* Kit.swift */,
+				AB67F5BF1DE41145338241D1 /* Materials.swift */,
+				39A1515A93B4DF8945CCE5A3 /* Math.swift */,
+				86E8A913775EAA8AAD0B8EFA /* MeshBuilder.swift */,
+				3ECA4C8BCBF1822A6C9235DE /* Scenery.swift */,
+				3E97972561512D1006562E7F /* Textures.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		230FD2CE8B14E4B7E158C993 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1C1DDB6FCB431E4A07C07EA2 /* GameScreen.swift */,
+				D9FB02E421A316081C1751E9 /* WaybillApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2EAA7608EC7722020DF1FA05 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				BF21115DC25FE08812748D5F /* Contracts.swift */,
+				89757B6255D437BFE1A766EB /* Economy.swift */,
+				0A8A4F5F3BB668DF1E6FE3DE /* Fleet.swift */,
+				7E5FF228A03F003457CA5355 /* GameModel.swift */,
+				890CFF28E41EC550DAB96258 /* Region.swift */,
+				71802C8DC0F5FEAA65975993 /* Research.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		4A0B44EB85FEE3D4B09F7282 /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				AC0C299428E6E2C88DA0CDDE /* PostFXShaders.swift */,
+				A0D62934CC1C3F633934EE00 /* PostProcessor.swift */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
+		5596ABD14E052003C004215B /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				021D867462D756EB0DB12F0C /* Common.swift */,
+				9F60352153738732CEC3B3F3 /* DockWork.swift */,
+				ABF83F437E2C1612DACE8646 /* HarbourVehicles.swift */,
+				2093DC2A6B76FD3606C7922B /* MetroVehicles.swift */,
+				F7D5C5E26B4D4EC696E98FC3 /* MetroWork.swift */,
+				605185822A30954B4E45E4C6 /* Props.swift */,
+				B170C4D713E35EE116CFD52A /* RiversideDepot.swift */,
+				18F30CFF9965540EC5102230 /* RiversideExtras.swift */,
+				3DE636CB09137252EEB3590C /* Rockets.swift */,
+				9A61B98F40775BAF05A23051 /* Trains.swift */,
+				31603DE89BA59407C6138D5E /* Vehicles.swift */,
+				F01609379901698C88CC768A /* Warehouse.swift */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		7C30DA8B27F062A048266EA2 /* World */ = {
+			isa = PBXGroup;
+			children = (
+				F263DD9231EDAA12C6952AC9 /* CameraRig.swift */,
+				94779B5767E54BCD84FB3598 /* DayCycle.swift */,
+				97B4BF6CED0F07623C08D3B5 /* FleetVisual.swift */,
+				B4ED2C3F76A7805F81445533 /* GameVisuals.swift */,
+				D468FAE715A20EA68F0956C5 /* ResearchVisuals.swift */,
+				5EFE9FB3A719FEDE6EDF2862 /* Studio.swift */,
+				1D86C4DCC2F6D22D5BC59135 /* WorldController.swift */,
+				5596ABD14E052003C004215B /* Build */,
+				1A4F7077C738632CBA175834 /* Core */,
+				96E2BA798197E72173E643D4 /* Motion */,
+				AFA94F15970B3F8558E15236 /* Regions */,
+				4A0B44EB85FEE3D4B09F7282 /* Render */,
+			);
+			path = World;
+			sourceTree = "<group>";
+		};
+		96E2BA798197E72173E643D4 /* Motion */ = {
+			isa = PBXGroup;
+			children = (
+				9B5181D57B4382970510D0AB /* Animators.swift */,
+				2F6147327EFC86EF77CFC6E1 /* DrivePath.swift */,
+				D15E4841B37D6DC434CB7F42 /* MotionPlan.swift */,
+				F9FA1B5419C7CBC7E9373EB3 /* RiversideRoutines.swift */,
+				457DC8F0BA667F8CE5237C0D /* Routes.swift */,
+				56EAF3CE5FC84B95766575A8 /* YardTraffic.swift */,
+			);
+			path = Motion;
+			sourceTree = "<group>";
+		};
+		9F203EA0A4C64299426A331E /* Waybill */ = {
+			isa = PBXGroup;
+			children = (
+				7E9DF16DEFD86D413812CDE3 /* Assets.xcassets */,
+				7C340CC8CD3C6734C5751B66 /* Info.plist */,
+				230FD2CE8B14E4B7E158C993 /* App */,
+				EFDB1E9AC8EBA4124FD597C8 /* Audio */,
+				2EAA7608EC7722020DF1FA05 /* Game */,
+				FB7D815870549563DEB7C93B /* Theme */,
+				E2E6AF6CAEFB65F3A83B6DDF /* UI */,
+				7C30DA8B27F062A048266EA2 /* World */,
+			);
+			path = Waybill;
+			sourceTree = "<group>";
+		};
+		AFA94F15970B3F8558E15236 /* Regions */ = {
+			isa = PBXGroup;
+			children = (
+				5A1D919A599A45B7481FE8A6 /* GraniteResearch.swift */,
+				29E8E788CE92DEEA6FBCDFD4 /* GraniteWorld.swift */,
+				5C4654C9ACA2851207FEF91C /* HarbourResearch.swift */,
+				7EC8C04EAD0558784BC085FD /* HarbourWorld.swift */,
+				BAEC4E28E309E3123E5A9D18 /* MetroResearch.swift */,
+				915384EDE819BDB9C8C499A3 /* MetroWorld.swift */,
+				5D223480E14DE9F73B661E5E /* OrbitResearch.swift */,
+				B8AEB441B13173D59C7FE865 /* OrbitWorld.swift */,
+				EC1DE7E8F38D9E6C1A562FB6 /* RiversideResearch.swift */,
+				8378AAADB2E5C09E73E11FF8 /* RiversideWorld.swift */,
+			);
+			path = Regions;
+			sourceTree = "<group>";
+		};
+		BFB7D39E5F6D5549760BE1B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17F757AF2E725F6727931ECB /* Waybill.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2E6AF6CAEFB65F3A83B6DDF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				80DEC6B5B5FE7E5DEE26BBC5 /* AwayReportCard.swift */,
+				2A083D7C9D8DC81D7963EF5D /* ContractsView.swift */,
+				25D9D4FF13051710BEA5F9CC /* ExpansionCard.swift */,
+				5585FC909E9F4115CE86723E /* FinaleCard.swift */,
+				F2C169A5FD9884DAE27121BE /* HUD.swift */,
+				295EEB5BB9EA517EF7319AF2 /* LoadingScreen.swift */,
+				146F597101D9B5A11A9EF02E /* LoopingShape.swift */,
+				06AF10E212C88964130CAE2B /* OpsPanel.swift */,
+				2C9F412C85FE25495DC66501 /* ResearchView.swift */,
+				47CD081B01D76BACE786739C /* RushButton.swift */,
+				B92005289F40315456AB6708 /* ShipmentTracker.swift */,
+				2683D6DC32328A7AE37514B0 /* StatusChips.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E7FA040C09AFB12422265C3A = {
+			isa = PBXGroup;
+			children = (
+				9F203EA0A4C64299426A331E /* Waybill */,
+				BFB7D39E5F6D5549760BE1B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDB1E9AC8EBA4124FD597C8 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A0591F47120BA48FE99CF685 /* SoundEngine.swift */,
+				35210C631B1EDC399281AA6B /* Synth.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		FB7D815870549563DEB7C93B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				7C00F97DD856A12A6D1A243F /* Brand.swift */,
+				05176851D3A179F7D12DB02B /* HUDGlass.swift */,
+				EBB86953716194B4CC1E3D3E /* Palette.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DD204BADE6C02297D2BE3EA /* Waybill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96552B8EC567B8479076E1F4 /* Build configuration list for PBXNativeTarget "Waybill" */;
+			buildPhases = (
+				48DDC9A0C7367822DF9EDB69 /* Sources */,
+				A5F4CDD32EFA77B5388107CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waybill;
+			packageProductDependencies = (
+			);
+			productName = Waybill;
+			productReference = 17F757AF2E725F6727931ECB /* Waybill.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68749B8EA6C4C26A6E6BE95B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3DD204BADE6C02297D2BE3EA = {
+						DevelopmentTeam = 34LM5DW4G4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A5F172E020968252EC1B960E /* Build configuration list for PBXProject "Waybill" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E7FA040C09AFB12422265C3A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BFB7D39E5F6D5549760BE1B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD204BADE6C02297D2BE3EA /* Waybill */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F4CDD32EFA77B5388107CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4CCAC52947E95A758A5638 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48DDC9A0C7367822DF9EDB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F100C198AE9FC205DBE3E335 /* Animators.swift in Sources */,
+				A1774BE96FE9484DB699FF18 /* AwayReportCard.swift in Sources */,
+				AB534B22829C1375C7481196 /* Brand.swift in Sources */,
+				852CA8690B1013E87FDCE116 /* CameraRig.swift in Sources */,
+				B9F03EABFF87C6813981C486 /* Common.swift in Sources */,
+				585F8855215888D152A7373D /* Contracts.swift in Sources */,
+				E65EED86A1FD4BBF6ACC7C88 /* ContractsView.swift in Sources */,
+				7B102AD231D546428DC7B16F /* DayCycle.swift in Sources */,
+				4CBA8FE684B989B7480F451E /* DockWork.swift in Sources */,
+				FF5C0E5A2EF95B80E76D2E7F /* DrivePath.swift in Sources */,
+				7A0338031EF3851D80C014B8 /* Economy.swift in Sources */,
+				3AA1E7040D6C7896150EE4FF /* ExpansionCard.swift in Sources */,
+				EE5DADD145414941C894ABF7 /* FinaleCard.swift in Sources */,
+				75C476647D9D4F8D5BD3C73E /* Fleet.swift in Sources */,
+				698A5035EAC05FD5F5DB5D1C /* FleetVisual.swift in Sources */,
+				8EE1A640109EFC29D64E5F46 /* GameModel.swift in Sources */,
+				93BCA6BA87D085F447E72461 /* GameScreen.swift in Sources */,
+				34B4BC377157F6B540F607C1 /* GameVisuals.swift in Sources */,
+				2611558C87D9426E68029179 /* GraniteResearch.swift in Sources */,
+				8E398397A35BE9580F5843A9 /* GraniteWorld.swift in Sources */,
+				135719E40CFE3AD0F2D724A5 /* HUD.swift in Sources */,
+				E44B50A89717D51F26D00E1A /* HUDGlass.swift in Sources */,
+				88198763A2CE5AAEED1C82E1 /* HarbourResearch.swift in Sources */,
+				74C79B7C943749008C35C770 /* HarbourVehicles.swift in Sources */,
+				AA63D1D3741BECFE082887E5 /* HarbourWorld.swift in Sources */,
+				92D49A981C669FACB2AD13C7 /* Kit.swift in Sources */,
+				637911D82A87182088A81542 /* LoadingScreen.swift in Sources */,
+				C4B5250D5A9600B4A8399C9D /* LoopingShape.swift in Sources */,
+				9BFC0D8F0FFD1E5E1D5B94BE /* Materials.swift in Sources */,
+				168B65441AB73865076BD7F5 /* Math.swift in Sources */,
+				E2FCB7D4DC39B714CBF84583 /* MeshBuilder.swift in Sources */,
+				8CCAE1BF6DF237A242F44D4D /* MetroResearch.swift in Sources */,
+				41A01893924F60D429923585 /* MetroVehicles.swift in Sources */,
+				7C2E0F5823F05E607E89F188 /* MetroWork.swift in Sources */,
+				F3AA11FBE9DD73EB3B5BA92F /* MetroWorld.swift in Sources */,
+				95002903C2C3482A17186617 /* MotionPlan.swift in Sources */,
+				612CF1AF225357ED6DEC2991 /* OpsPanel.swift in Sources */,
+				A1A5DF8E71995216F5947E50 /* OrbitResearch.swift in Sources */,
+				911C4075DC71041E0400E0CE /* OrbitWorld.swift in Sources */,
+				56D06605E10108176AFABC64 /* Palette.swift in Sources */,
+				C3877560A144C8A5EEC3BB38 /* PostFXShaders.swift in Sources */,
+				1FB8BC8DBF6A7F6AEA0CD8BB /* PostProcessor.swift in Sources */,
+				FBCC38290832BF1317E41F8C /* Props.swift in Sources */,
+				22BE679455C40690ADF82A70 /* Region.swift in Sources */,
+				67167B1A5E80ECBBDD40EB32 /* Research.swift in Sources */,
+				CA29E54543BB347BD18B47E8 /* ResearchView.swift in Sources */,
+				C51F18B7BADF3F428E62E046 /* ResearchVisuals.swift in Sources */,
+				A9053371E0411398137263C9 /* RiversideDepot.swift in Sources */,
+				6652CB02BAB8D288B80469AD /* RiversideExtras.swift in Sources */,
+				4592863581CE28F311ED388B /* RiversideResearch.swift in Sources */,
+				43B9CB0C966855EBB6BE2B56 /* RiversideRoutines.swift in Sources */,
+				924F469FF3AC439084D5F23F /* RiversideWorld.swift in Sources */,
+				8903E25A3A9014D0BA7655A2 /* Rockets.swift in Sources */,
+				A68078EB52158576E69F38B8 /* Routes.swift in Sources */,
+				E2AB0B18662BEA9813E15201 /* RushButton.swift in Sources */,
+				CD23B6D5B747E802499B3BB7 /* Scenery.swift in Sources */,
+				EB49190C677572DB1DD69894 /* ShipmentTracker.swift in Sources */,
+				00E04A1C850AC969228C06F1 /* SoundEngine.swift in Sources */,
+				6B94DABA578097C6335C215A /* StatusChips.swift in Sources */,
+				80EBFDFAC61347CF97794DD5 /* Studio.swift in Sources */,
+				852484809EF79FA07C57FBD0 /* Synth.swift in Sources */,
+				4753259A1F8201FE741BCC15 /* Textures.swift in Sources */,
+				013FF87461EAC3389AE0CDC1 /* Trains.swift in Sources */,
+				BC59FDD8D8A378DC98D3687C /* Vehicles.swift in Sources */,
+				AC3C829792E323604F892ABF /* Warehouse.swift in Sources */,
+				A52B8DDDDBE7E54585C038F7 /* WaybillApp.swift in Sources */,
+				1CDA4FCF551B9FF4E6257318 /* WorldController.swift in Sources */,
+				87097A9E22CF1339E69DBBDC /* YardTraffic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2023DE4A627AC27AF7F60A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Waybill/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Waybill;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yorben.waybill;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		23FA92471B8534AE854D8378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 34LM5DW4G4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		644C99C6E017AC8C876CBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 34LM5DW4G4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DAD45F5E498D9443C94FBE6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Waybill/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Waybill;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yorben.waybill;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96552B8EC567B8479076E1F4 /* Build configuration list for PBXNativeTarget "Waybill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD45F5E498D9443C94FBE6F /* Debug */,
+				2023DE4A627AC27AF7F60A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5F172E020968252EC1B960E /* Build configuration list for PBXProject "Waybill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644C99C6E017AC8C876CBF33 /* Debug */,
+				23FA92471B8534AE854D8378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68749B8EA6C4C26A6E6BE95B /* Project object */;
+}
