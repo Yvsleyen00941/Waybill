@@ -1,6 +1,7 @@
 # Waybill
 
 [![Website](https://img.shields.io/badge/Website-yorben.me-08090d?style=flat-square&logo=safari)](https://yorben.me)
+[![RealityKit Case Study](https://img.shields.io/badge/Case%20Study-Read%20Article-black?style=flat-square&logo=safari)](https://yorben.me/articles/simulating-3d-logistics-dioramas-realitykit.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Swift](https://img.shields.io/badge/Swift-5.10%20%7C%206.0-orange?style=flat-square&logo=swift)](https://swift.org)
 [![Platform](https://img.shields.io/badge/Platform-iPadOS%2017%2B-lightgrey?style=flat-square&logo=apple)](https://yorben.me)
